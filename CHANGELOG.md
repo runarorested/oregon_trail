@@ -14,4 +14,8 @@
 	
 3. Start, Initilization, Instructions, Difficulty
 	- Polishing inputs parsing
-	
+
+4. Shooting subroutine changed and fixed. It uses a count in seconds to determinate
+how much did it took you to answer. that delay can be between 0 an  9 seconds, less delay the better, a failure counts as worst delay possible (9). That number is used to calculate
+how much ammo you spend and how much food you  hunt. As it was, the original Chipmunk BASIC
+port let an unnecesary *3600 on the delay, making it either you make in less of a second and get top result, or always get worst results.

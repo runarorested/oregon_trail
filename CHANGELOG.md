@@ -11,3 +11,7 @@
 	- Renaming variables and testing until no errors found.
 	- Redoing REM header.
 	- Redoing Variable List, and moving it to line 9900-9990 range.
+	
+3. Start, Initilization, Instructions, Difficulty
+	- Polishing inputs parsing
+	
